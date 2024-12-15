@@ -1,19 +1,17 @@
-*Overview*:
+## Overview
 
-Gomoku is a strategy board game with 2 players and on a 15x15 board. The objective of the game is to form an unbroken chain of 5 stones (vertically, horizontally, diagonally) and the first player to do that wins the game. In this project, you can play against the AI that uses the MiniMax algorithm with alpha beta prunning in order to make the next move. Everything is integrated with a GUI made through `pygame`.
+This project is a Gomoku (Five in a Row) game that allows players to play against a computer. The game is created using Python and the `pygame` library for graphical interface and interaction. In Gomoku, the player and the AI take turns to place their respective pieces (X and O) on a grid, aiming to line up five pieces in a row, either horizontally, vertically, or diagonally.
 
-*Requirement*: 
+## Instructions to Run the Code
 
-In order to run this program, the `pygame` library must be installed first:
-```
-> pip install pygame
-```
+1. Make sure Python is installed on your system.
+2. Install the `pygame` library by running the following command:
+    ```
+    pip install pygame
+    ```
+3. After the installation is complete, navigate to the project folder and run the `main.py` script to start the game:
+    ```
+    python main.py
+    ```
 
-*Execution*: 
 
-For playing against the AI, run the following commands:
-```
-> git clone https://github.com/husus/gomokuAI-py
-> cd gomokuAI-py
-> python3 play.py
-```
